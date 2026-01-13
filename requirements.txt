@@ -2,4 +2,3 @@ streamlit
 langchain-groq
 langchain-core
 langgraph
-lang
