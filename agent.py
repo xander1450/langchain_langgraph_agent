@@ -4,10 +4,6 @@ from langchain_groq import ChatGroq
 from langchain_core.tools import tool
 from langgraph.prebuilt import create_react_agent
 
-# ---------------------------------------------------------
-# STEP 1: SETUP THE "BRAIN" (The LLM)
-# ---------------------------------------------------------
-
 # Ensure GROQ_API_KEY is set in environment
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
