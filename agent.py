@@ -17,10 +17,6 @@ llm = ChatGroq(
     temperature=2
 )
 
-# ---------------------------------------------------------
-# STEP 2: DEFINE THE "HANDS" (The Tools)
-# ---------------------------------------------------------
-
 @tool
 def get_weather(city: str) -> str:
     """Use this to get the weather for a specific city."""
