@@ -34,10 +34,6 @@ def multiply(a: int, b: int) -> int:
 
 tools = [get_weather, multiply]
 
-# ---------------------------------------------------------
-# STEP 3: CREATE THE AGENT (The Body)
-# ---------------------------------------------------------
-
 agent_executor = create_react_agent(llm, tools)
 
 # ---------------------------------------------------------
